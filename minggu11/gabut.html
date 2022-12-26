@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        flag = 1;
+
+        function f1() {
+            alert("hello")
+        }
+
+        function f() {
+            if (flag == 1) {
+                bn.style.right = 400
+                bn.style.top = 300
+                a = 2
+            } else if (flag == 2) {
+                bn.style.right = 400
+                bn.style.top = 300
+                a = 1
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <h1></h1>
+    <div id="by">
+        <input type="button" onclick="f1()" value="ya">
+    </div>
+    <div id="bn" style="position:absolute; background-color: purple; right: 400px;">
+        <input type="button" onMouseOver="f()" value="ya">
+    </div>
+</body>
+
+</html>
